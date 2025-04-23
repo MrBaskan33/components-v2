@@ -8,7 +8,7 @@ module.exports = {
   slash: true,
   data: new Discord.SlashCommandBuilder()    
     .setName("components-v2")
-    .setDescription("Components v12 example command.")
+    .setDescription("Components v2 example command.")
     .setDMPermission(false),
   
   async execute(client, interaction) { 
